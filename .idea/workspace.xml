@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d416027e-2f69-4bbe-9b21-aeb32fd37364" name="Changes" comment="Relationship between classes" />
+    <list default="true" id="d416027e-2f69-4bbe-9b21-aeb32fd37364" name="Changes" comment="interface modification">
+      <change afterPath="$PROJECT_DIR$/src/abstract_class/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,20 +49,26 @@
       <recent name="D:\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ObjectQuality">
-    <configuration name="BitManipulation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BitManipulation" />
-      <module name="JAVA" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Main">
     <configuration name="HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Hash_And_equals.HashCode" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Hash_And_equals.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstract_class.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstract_class.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.ObjectQuality" />
         <item itemvalue="Application.ReferenceQuality" />
         <item itemvalue="Application.HashCode" />
         <item itemvalue="Application.Strings" />
-        <item itemvalue="Application.BitManipulation" />
       </list>
     </recent_temporary>
   </component>
@@ -139,14 +148,22 @@
       <option name="project" value="LOCAL" />
       <updated>1708869102355</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="interface modification">
+      <created>1709191964710</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1709191964710</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hashCode &amp; equals" />
     <MESSAGE value="Jan 28" />
     <MESSAGE value="Relationship between classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Relationship between classes" />
+    <MESSAGE value="interface modification" />
+    <option name="LAST_COMMIT_MESSAGE" value="interface modification" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
