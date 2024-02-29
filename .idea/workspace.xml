@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d416027e-2f69-4bbe-9b21-aeb32fd37364" name="Changes" comment="Jan 28">
-      <change afterPath="$PROJECT_DIR$/src/Class_Relationship/Aggregation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class_Relationship/Association.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Class_Relationship/Composition.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Interface/Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="d416027e-2f69-4bbe-9b21-aeb32fd37364" name="Changes" comment="Relationship between classes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,13 +132,21 @@
       <option name="project" value="LOCAL" />
       <updated>1706455184475</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Relationship between classes">
+      <created>1708869102355</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1708869102355</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="hashCode &amp; equals" />
     <MESSAGE value="Jan 28" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jan 28" />
+    <MESSAGE value="Relationship between classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Relationship between classes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

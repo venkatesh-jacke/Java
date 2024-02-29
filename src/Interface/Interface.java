@@ -4,41 +4,37 @@ public class Interface {
     public static void main(String[] args) {
 
     }
-}
 
+    interface Employee{
+        double getSalary();
+        long getEmployeeId();
 
-//Interface cannot implement another Interface
-/*interface car implements fly{
+        void applyLeave();
 
-}*/
-
-
-//Interface cannot extend a Class
-/*interface Car extends Lamborghini{
-
-}*/
-
-
-interface Employee{
-    double getSalary();
-    long getEmployeeId();
-
-}
-//Interface can only extend another Interface
-interface Manger extends Employee{
-    void assignTas();
-
-    //Static methods are allowed from Java 8, but we need to have a body for it
-    static void conductMeeting(){
-        System.out.println("Lets go for a meeting");
     }
-    default void greet(){
-        System.out.println("Welcome");
+    interface Manager extends Employee{
+        void assignTas();
+        static void conductMeeting(){
+            System.out.println("Lets go for a meeting");
+        }
     }
+
+    interface Developer extends Manager{
+        void writeCode();
+    }
+
+
 }
 
-interface Developer extends Employee{
-    void writeCode();
-}
+
+/*
+Interface cannot implement another Interface
+Interface cannot extend a Class
+Interface can only extend another Interface
+Static methods are allowed from Java 8, but we need to have a body for it
+
+default type method is allowed which can have a body and its a common property for all class whic implemnts its interface
+*/
+
 
 
