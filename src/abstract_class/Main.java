@@ -56,6 +56,9 @@ You can refer a abstract class with its subclass object
 Main Purpose of abstract is
 1.Inherit 2.Achieve Polymorphism
 
+Note:-
+abstract class cannot be static
+Here the abstract class is static because it's an inner class, Inner class can be static.
 
 
 */
