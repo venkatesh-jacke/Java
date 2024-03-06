@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d416027e-2f69-4bbe-9b21-aeb32fd37364" name="Changes" comment="interface modification">
-      <change afterPath="$PROJECT_DIR$/src/abstract_class/Main.java" afterDir="false" />
+    <list default="true" id="d416027e-2f69-4bbe-9b21-aeb32fd37364" name="Changes" comment="serialize and externalize">
+      <change afterPath="$PROJECT_DIR$/externalization.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/serialization.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Externalization/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Externalization/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seriaization/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Seriaization/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interface/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/Interface.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,13 +55,13 @@
       <recent name="D:\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="HashCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Hash_And_equals.HashCode" />
+  <component name="RunManager" selected="Application.Externalization.Main">
+    <configuration name="Externalization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Externalization.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Hash_And_equals.*" />
+          <option name="PATTERN" value="Externalization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Strings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Strings.Strings" />
+    <configuration name="Seriaization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Seriaization.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Strings.*" />
+          <option name="PATTERN" value="Externalization.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -117,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Externalization.Main" />
+        <item itemvalue="Application.Seriaization.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.ObjectQuality" />
         <item itemvalue="Application.ReferenceQuality" />
-        <item itemvalue="Application.HashCode" />
-        <item itemvalue="Application.Strings" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +161,21 @@
       <option name="project" value="LOCAL" />
       <updated>1709191964710</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="abstract class">
+      <created>1709192671608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1709192671608</updated>
+    </task>
+    <task id="LOCAL-00005" summary="abstract class">
+      <created>1709192737460</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709192737460</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,7 +183,9 @@
     <MESSAGE value="Jan 28" />
     <MESSAGE value="Relationship between classes" />
     <MESSAGE value="interface modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="interface modification" />
+    <MESSAGE value="abstract class" />
+    <MESSAGE value="serialize and externalize" />
+    <option name="LAST_COMMIT_MESSAGE" value="serialize and externalize" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
