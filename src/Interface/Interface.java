@@ -13,7 +13,7 @@ public class Interface {
 
     }
     interface Manager extends Employee{
-        void assignTas();
+        void assignTask();
         static void conductMeeting(){
             System.out.println("Lets go for a meeting");
         }

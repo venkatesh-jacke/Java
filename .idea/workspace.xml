@@ -4,15 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d416027e-2f69-4bbe-9b21-aeb32fd37364" name="Changes" comment="serialize and externalize">
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Synchronization/Main.java" afterDir="false" />
+    <list default="true" id="d416027e-2f69-4bbe-9b21-aeb32fd37364" name="Changes" comment="MultiThreading-synchronization">
+      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/DeadLock/Example1/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Synchronization/Example2/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Synchronization/Example2/Stack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Synchronization/Example3/BlockQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/MultiThreading/Synchronization/Example3/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Reflection/Main.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Reflection/MyClass.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Reflection/Person.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/Reflection/SimpleClass.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Interface/Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interface/Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiThreading/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultiThreading/Synchronization/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultiThreading/Synchronization/Example1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,13 +61,13 @@
       <recent name="D:\JAVA\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MultiThreading.Synchronization.Main">
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.Main" />
+  <component name="RunManager" selected="Application.MultiThreading.DeadLock.Example1.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.Synchronization.Example1.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultiThreading.*" />
+          <option name="PATTERN" value="MultiThreading.Synchronization.Example1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,6 +76,45 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.Synchronization.Example1.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.Synchronization.Example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.Synchronization.Example1.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.Synchronization.Example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreading.DeadLock.Example1.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.DeadLock.Example1.Main" />
+      <module name="JAVA" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="MultiThreading.DeadLock.Example1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MultiThreading.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MultiThreading.Main" />
       <module name="JAVA" />
       <extension name="coverage">
@@ -82,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MultiThreading.Synchronization.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MultiThreading.Synchronization.Main" />
+    <configuration name="MultiThreading.Synchronization.Example2.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.Synchronization.Example2.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="MultiThreading.Synchronization.*" />
+          <option name="PATTERN" value="MultiThreading.Synchronization.Example2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,25 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reflection.Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Main" />
+    <configuration name="MultiThreading.Synchronization.Example3.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreading.Synchronization.Example3.Main" />
       <module name="JAVA" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Reflection.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Reflection.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reflection.Main" />
-      <module name="JAVA" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Reflection.*" />
+          <option name="PATTERN" value="MultiThreading.Synchronization.Example3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +155,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.MultiThreading.Synchronization.Main" />
+        <item itemvalue="Application.MultiThreading.DeadLock.Example1.Main" />
+        <item itemvalue="Application.MultiThreading.Synchronization.Example3.Main" />
+        <item itemvalue="Application.MultiThreading.Main" />
+        <item itemvalue="Application.MultiThreading.Synchronization.Example2.Main" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Reflection.Main" />
-        <item itemvalue="Application.Reflection.Main (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +214,14 @@
       <option name="project" value="LOCAL" />
       <updated>1709713013515</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="MultiThreading-synchronization">
+      <created>1711012190260</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1711012190260</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,7 +231,8 @@
     <MESSAGE value="interface modification" />
     <MESSAGE value="abstract class" />
     <MESSAGE value="serialize and externalize" />
-    <option name="LAST_COMMIT_MESSAGE" value="serialize and externalize" />
+    <MESSAGE value="MultiThreading-synchronization" />
+    <option name="LAST_COMMIT_MESSAGE" value="MultiThreading-synchronization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -221,6 +261,11 @@
           <url>file://$PROJECT_DIR$/src/Reflection/SimpleClass.java</url>
           <line>9</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/MultiThreading/Synchronization/Example3/Main.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

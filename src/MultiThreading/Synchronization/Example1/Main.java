@@ -1,4 +1,4 @@
-package MultiThreading.Synchronization;
+package MultiThreading.Synchronization.Example1;
 
 public class Main {
     public static void main(String[] args) {
@@ -48,7 +48,7 @@ With Synchronization
 synchronized void display(String msg)
 [venkat][Android][Jacke]
 
-if you dont need to alter the original method of a class you can place the critical section of a code inside
+if you don't need to alter the original method of a class you can place the critical section of a code inside
 Synchronized block
 synchronized(obj){
 //CODE
